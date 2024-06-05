@@ -1,0 +1,22 @@
+body{
+    background-color: dimgray;
+    overflow-x: hidden;
+}
+#placeholder{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    transform: scale(0.5);
+    height: 200vh;
+}
+img{
+    align-self: center;
+    border: 8px solid whitesmoke;
+    border-radius: 10px;
+    margin: 30px;
+    box-shadow: 0px 15px 15px black;
+    transition: 0.5s all ease-in-out;
+}
+img:hover{
+    transform: scale(2);
+}
