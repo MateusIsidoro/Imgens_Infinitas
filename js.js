@@ -18,7 +18,7 @@ function proxImage( img ){
 
 }
 window.onload = function(){
-    for( ;item <83;item++){
+    for( ;item <82;item++){
         proxImage(item);   
     }
 }
