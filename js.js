@@ -1,5 +1,5 @@
 let item = 1
-const max = 80;
+const max = 82;
 
 function proxImage( img ){
     fetch(`img/${img}.jpg`)
@@ -18,14 +18,21 @@ function proxImage( img ){
 
 }
 window.onload = function(){
-    for( ;item <49;item++){
+    for( ;item <83;item++){
         proxImage(item);   
     }
 }
-window.onscroll = function(){
-    let altura = document.body.scrollHeight;
+window.onload = setInterval(function(){
+    proxImage(item++ %max);
     let scrollPoint = window.scrollY + window.innerHeight;
-    if(scrollPoint >= altura){
-        proxImage(item++ % max);
-    }
-}
+    window.scrollTo({ top: scrollPoint, behavior: 'smooth'})
+}, 2000);
+
+
+// window.onscroll = function(){
+//     let altura = document.body.scrollHeight;
+//     let scrollPoint = window.scrollY + window.innerHeight;
+//     if(scrollPoint >= altura){
+//         proxImage(item++ % max);
+//     }
+// }
