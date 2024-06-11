@@ -1,5 +1,5 @@
 let item = 1
-const max = 82;
+const max = 83;
 
 function proxImage( img ){
     fetch(`img/${img}.jpg`)
@@ -18,7 +18,7 @@ function proxImage( img ){
 
 }
 window.onload = function(){
-    for( ;item <82;item++){
+    for( ;item <84;item++){
         proxImage(item);   
     }
 }
