@@ -5,9 +5,14 @@
     "description": "Um app de imagens infinias, aparecendo a cada 2 segundos 1 imagem nova",
     "icons": [
       {
-        "src": "inf.ico",
+        "src": "icone.png",
+        "sizes": "72x72",
+        
+        "src": "icone.png",
         "sizes": "512x512"
       }
     ],
-    "display": "standalone"
+    "display": "fullscreen",
+    "theme_color": "#B12A34",
+    "background_color": "#B12A34"
   }
