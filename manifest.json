@@ -6,9 +6,6 @@
     "icons": [
       {
         "src": "icone.png",
-        "sizes": "72x72",
-        
-        "src": "icone.png",
         "sizes": "512x512"
       }
     ],
