@@ -1,0 +1,13 @@
+{
+    "name": "Imagens Infinitas",
+    "short_name": "ii",
+    "start_url" : "/",
+    "description": "Um app de imagens infinias, aparecendo a cada 2 segundos 1 imagem nova",
+    "icons": [
+      {
+        "src": "inf.ico",
+        "sizes": "512x512"
+      }
+    ],
+    "display": "standalone"
+  }
