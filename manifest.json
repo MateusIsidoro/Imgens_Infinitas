@@ -1,8 +1,7 @@
 {
     "name": "Imagens_Infinitas",
-    "short_name": "Imagens_Infinitas",
-    "start_url" : "/",
-    "description": "Um app de imagens infinias, aparecendo a cada 2 segundos 1 imagem nova",
+    "short_name": "II",
+    "start_url" : "/?home=true",
     "icons": [
       {
         "src": "icone.png",
@@ -11,8 +10,8 @@
         "purpose": "maskable any"
       }
     ],
-    "display": "fullscreen",
     "theme_color": "#000000",
     "background_color": "#ffffff",
+    "display": "fullscreen",
     "orientation": "portrati"
-  }
+}
