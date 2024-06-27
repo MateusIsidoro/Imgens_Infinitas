@@ -22,17 +22,17 @@ window.onload = function(){
         proxImage(item);   
     }
 }
-window.onload = setInterval(function(){
-    proxImage(item++ %max);
-    let scrollPoint = window.scrolly + window.innerWidth;
-    window.scrollTo({ right: scrollPoint, behavior: 'smooth'})
-}, 2000);
+// window.onload = setInterval(function(){
+//     proxImage(item++ %max);
+//     let scrollPoint = window.scrolly + window.innerHeight;
+//     window.scrollTo({ right: scrollPoint, behavior: 'smooth'})
+// }, 2000);
 
 
-// window.onscroll = function(){
-//     let altura = document.body.scrollHeight;
-//     let scrollPoint = window.scrollY + window.innerHeight;
-//     if(scrollPoint >= altura){
-//         proxImage(item++ % max);
-//     }
-// }
+window.onscroll = function(){
+    let altura = document.body.scrollWidth;
+    let scrollPoint = window.scrollY + window.innerHeight;
+    if(scrollPoint >= altura){
+        proxImage(item++ % max);
+    }
+}
