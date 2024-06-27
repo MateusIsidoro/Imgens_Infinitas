@@ -24,8 +24,8 @@ window.onload = function(){
 }
 window.onload = setInterval(function(){
     proxImage(item++ %max);
-    let scrollPoint = window.scrollx + window.innerWidth;
-    window.scrollTo({ left: scrollPoint, behavior: 'smooth'})
+    let scrollPoint = window.scrolly + window.innerWidth;
+    window.scrollTo({ right: scrollPoint, behavior: 'smooth'})
 }, 2000);
 
 
